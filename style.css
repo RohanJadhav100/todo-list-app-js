@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+}
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom right, #339af0, #4dabf7);
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#task-form {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-top: 30px;
+  /* display: inline-block; */
+  background-color: white;
+  padding: 10px 10px 10px 24px;
+  border-radius: 6px;
+  margin-bottom: 28px;
+}
+#input {
+  padding: 4px 12px;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  font-size: 1.6rem;
+}
+.addBtn {
+  color: white;
+  background-color: #339af0;
+  border: none;
+  padding: 8px 28px;
+  border-radius: 6px;
+  font-size: 1.5rem;
+}
+.task-text {
+  font-size: 1.8rem;
+}
+.single-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 10px 8px 10px;
+  color: #495057;
+  background-color: white;
+  border-bottom: 1px solid #868e96;
+}
+
+.middle-section {
+  background-color: white;
+  padding: 16px 12px 26px 12px;
+  border-radius: 6px;
+  margin-bottom: 28px;
+}
+.icons {
+  display: flex;
+  gap: 18px;
+}
+.icons button {
+  border: none;
+  border-radius: 4px;
+}
+svg {
+  height: 28px;
+  width: 30px;
+  color: white;
+  padding: 6px;
+}
+.tick-icon {
+  background-color: #339af0;
+}
+.tick-icon:hover {
+  background-color: #74c0fc;
+}
+.delete-icon {
+  background-color: #f03e3e;
+}
+.delete-icon:hover {
+  background-color: #ff6b6b;
+}
+.complete-box {
+  display: flex;
+  background-color: white;
+  padding: 14px 20px;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+.complete-box p {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.allDeleteBtn {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.4rem;
+  background-color: #339af0;
+  padding: 10px 12px;
+  margin-top: 20px;
+}
+.allDeleteBtn:hover {
+  border: 1px solid black;
+  color: #339af0;
+  background-color: white;
+}
+.lineThrough {
+  text-decoration: line-through;
+}
